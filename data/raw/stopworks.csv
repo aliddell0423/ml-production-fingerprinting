@@ -1,0 +1,1421 @@
+work_order_id,note_text,norm_subsystem,norm_root_cause
+WO-0000000,Enumeration timeout on front panel port.,,
+WO-0000001,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000002,"Storage bay loose, reseated successfully.",,
+WO-0000007,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000012,USB device failed to enumerate; hub reset.,,
+WO-0000014,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000015,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000017,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000020,UEFI signature verification failure.,,
+WO-0000021,UEFI signature verification failure.,,
+WO-0000024,Flash blocked due to version skew.,,
+WO-0000027,Secure Boot blocked unsigned image.,,
+WO-0000028,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0000029,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000030,DHCP scope exhausted; PXE failed.,,
+WO-0000036,Firmware version mismatch against catalog policy.,,
+WO-0000039,DHCP scope exhausted; PXE failed.,,
+WO-0000043,Flash blocked due to version skew.,,
+WO-0000045,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000049,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0000051,DIMM marginal; errors above threshold.,,
+WO-0000055,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000056,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000060,Network lease starvation during imaging.,,
+WO-0000061,Intermittent memory failure under test.,,
+WO-0000062,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000064,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000067,HBA/expander link drop observed.,,
+WO-0000068,HBA/expander link drop observed.,,
+WO-0000069,PCIe training error on GPU; retrain.,,
+WO-0000071,USB device failed to enumerate; hub reset.,,
+WO-0000072,Drive not fully seated in bay.,,
+WO-0000079,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0000082,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000090,HBA/expander link drop observed.,,
+WO-0000093,Network lease starvation during imaging.,,
+WO-0000095,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000099,USB device failed to enumerate; hub reset.,,
+WO-0000100,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000102,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000107,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000108,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000110,Flash blocked due to version skew.,,
+WO-0000111,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0000115,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000118,"Storage bay loose, reseated successfully.",,
+WO-0000120,DHCP scope exhausted; PXE failed.,,
+WO-0000122,Network lease starvation during imaging.,,
+WO-0000127,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000128,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0000129,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0000135,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000140,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000146,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0000147,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000150,Firmware version mismatch against catalog policy.,,
+WO-0000151,Firmware version mismatch against catalog policy.,,
+WO-0000153,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000158,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000159,TPM attestation failed; PCR mismatch.,,
+WO-0000161,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000163,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000165,Network lease starvation during imaging.,,
+WO-0000166,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000168,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000170,Intermittent memory failure under test.,,
+WO-0000177,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000179,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000185,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000186,Network lease starvation during imaging.,,
+WO-0000187,AER fatal during GPU bring-up.,,
+WO-0000195,Firmware version mismatch against catalog policy.,,
+WO-0000203,Firmware version mismatch against catalog policy.,,
+WO-0000205,Network mgmt failure; redfish API stalled.,,
+WO-0000209,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000212,Flash blocked due to version skew.,,
+WO-0000214,Missing enumeration on storage tray.,,
+WO-0000215,Network lease starvation during imaging.,,
+WO-0000216,Intermittent memory failure under test.,,
+WO-0000219,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0000221,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000223,UEFI signature verification failure.,,
+WO-0000224,Missing enumeration on storage tray.,,
+WO-0000227,Network mgmt failure; redfish API stalled.,,
+WO-0000228,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000231,Intermittent memory failure under test.,,
+WO-0000233,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000234,USB device failed to enumerate; hub reset.,,
+WO-0000237,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000246,AER fatal during GPU bring-up.,,
+WO-0000250,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000251,Enumeration timeout on front panel port.,,
+WO-0000252,TPM attestation failed; PCR mismatch.,,
+WO-0000256,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000258,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000259,PCIe training error on GPU; retrain.,,
+WO-0000261,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000264,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000270,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000276,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000278,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000281,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000282,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000283,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000284,Missing enumeration on storage tray.,,
+WO-0000286,Firmware version mismatch against catalog policy.,,
+WO-0000291,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000292,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0000293,Firmware version mismatch against catalog policy.,,
+WO-0000295,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0000300,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000303,Network lease starvation during imaging.,,
+WO-0000312,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000318,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000324,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000325,DIMM marginal; errors above threshold.,,
+WO-0000326,Flash blocked due to version skew.,,
+WO-0000329,Flash blocked due to version skew.,,
+WO-0000331,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000332,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000337,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000338,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000344,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0000348,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000352,Drive not fully seated in bay.,,
+WO-0000355,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000356,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0000358,TPM attestation failed; PCR mismatch.,,
+WO-0000359,TPM attestation failed; PCR mismatch.,,
+WO-0000362,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000364,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000370,Secure Boot blocked unsigned image.,,
+WO-0000373,Drive not fully seated in bay.,,
+WO-0000382,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000383,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000385,Network mgmt failure; redfish API stalled.,,
+WO-0000386,"Storage bay loose, reseated successfully.",,
+WO-0000391,DHCP scope exhausted; PXE failed.,,
+WO-0000396,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000398,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0000401,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000403,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000405,DIMM marginal; errors above threshold.,,
+WO-0000412,USB device failed to enumerate; hub reset.,,
+WO-0000413,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000415,EK chain trust issue during attestation.,,
+WO-0000419,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000421,Flash blocked due to version skew.,,
+WO-0000426,PCIe training error on GPU; retrain.,,
+WO-0000429,DIMM marginal; errors above threshold.,,
+WO-0000430,Flash blocked due to version skew.,,
+WO-0000431,"Storage bay loose, reseated successfully.",,
+WO-0000432,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000436,USB device failed to enumerate; hub reset.,,
+WO-0000441,USB device failed to enumerate; hub reset.,,
+WO-0000443,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000447,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000451,Network mgmt failure; redfish API stalled.,,
+WO-0000454,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000460,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000461,PCIe training error on GPU; retrain.,,
+WO-0000462,Secure Boot blocked unsigned image.,,
+WO-0000464,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000465,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000466,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000467,TPM attestation failed; PCR mismatch.,,
+WO-0000468,Intermittent memory failure under test.,,
+WO-0000474,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000475,PCIe training error on GPU; retrain.,,
+WO-0000476,TPM attestation failed; PCR mismatch.,,
+WO-0000480,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000487,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000488,Firmware version mismatch against catalog policy.,,
+WO-0000492,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000496,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000498,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0000503,PCIe training error on GPU; retrain.,,
+WO-0000504,SAS backplane link instability.,,
+WO-0000512,Flash blocked due to version skew.,,
+WO-0000513,HBA/expander link drop observed.,,
+WO-0000514,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000515,EK chain trust issue during attestation.,,
+WO-0000518,HBA/expander link drop observed.,,
+WO-0000521,HBA/expander link drop observed.,,
+WO-0000522,"Storage bay loose, reseated successfully.",,
+WO-0000524,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000525,Network mgmt failure; redfish API stalled.,,
+WO-0000526,TPM attestation failed; PCR mismatch.,,
+WO-0000527,"Storage bay loose, reseated successfully.",,
+WO-0000531,PCIe training error on GPU; retrain.,,
+WO-0000533,PCIe training error on GPU; retrain.,,
+WO-0000535,DHCP scope exhausted; PXE failed.,,
+WO-0000538,Flash blocked due to version skew.,,
+WO-0000540,Firmware version mismatch against catalog policy.,,
+WO-0000548,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000552,Firmware version mismatch against catalog policy.,,
+WO-0000553,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000554,Network lease starvation during imaging.,,
+WO-0000557,Firmware version mismatch against catalog policy.,,
+WO-0000559,SAS backplane link instability.,,
+WO-0000561,USB device failed to enumerate; hub reset.,,
+WO-0000563,Network lease starvation during imaging.,,
+WO-0000564,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000565,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000566,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000569,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000571,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0000575,SAS backplane link instability.,,
+WO-0000581,Network mgmt failure; redfish API stalled.,,
+WO-0000586,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000590,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000591,Network mgmt failure; redfish API stalled.,,
+WO-0000593,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000606,Firmware version mismatch against catalog policy.,,
+WO-0000607,Network lease starvation during imaging.,,
+WO-0000610,Flash blocked due to version skew.,,
+WO-0000612,Flash blocked due to version skew.,,
+WO-0000613,TPM attestation failed; PCR mismatch.,,
+WO-0000616,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000619,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000624,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0000625,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000631,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000632,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000634,"Storage bay loose, reseated successfully.",,
+WO-0000643,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000645,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000646,Secure Boot blocked unsigned image.,,
+WO-0000651,Firmware version mismatch against catalog policy.,,
+WO-0000656,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000657,AER fatal during GPU bring-up.,,
+WO-0000658,PCIe training error on GPU; retrain.,,
+WO-0000661,DHCP scope exhausted; PXE failed.,,
+WO-0000662,AER fatal during GPU bring-up.,,
+WO-0000664,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000666,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000672,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000674,Flash blocked due to version skew.,,
+WO-0000676,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000679,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000680,DIMM marginal; errors above threshold.,,
+WO-0000685,Network lease starvation during imaging.,,
+WO-0000695,SAS backplane link instability.,,
+WO-0000696,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000699,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0000700,SAS backplane link instability.,,
+WO-0000715,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000717,Enumeration timeout on front panel port.,,
+WO-0000719,SAS backplane link instability.,,
+WO-0000720,AER fatal during GPU bring-up.,,
+WO-0000723,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000724,EK chain trust issue during attestation.,,
+WO-0000731,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000736,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000738,DHCP scope exhausted; PXE failed.,,
+WO-0000739,Network lease starvation during imaging.,,
+WO-0000742,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000747,HBA/expander link drop observed.,,
+WO-0000751,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000753,PCIe training error on GPU; retrain.,,
+WO-0000758,DHCP scope exhausted; PXE failed.,,
+WO-0000759,Secure Boot blocked unsigned image.,,
+WO-0000762,"Storage bay loose, reseated successfully.",,
+WO-0000771,PCIe training error on GPU; retrain.,,
+WO-0000774,TPM attestation failed; PCR mismatch.,,
+WO-0000780,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000781,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000787,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000791,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000794,Firmware version mismatch against catalog policy.,,
+WO-0000795,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000797,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000800,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000804,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000806,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000814,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000822,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0000823,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000825,Flash blocked due to version skew.,,
+WO-0000826,Flash blocked due to version skew.,,
+WO-0000827,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000832,TPM attestation failed; PCR mismatch.,,
+WO-0000835,Flash blocked due to version skew.,,
+WO-0000840,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000844,"Storage bay loose, reseated successfully.",,
+WO-0000845,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000849,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0000850,AER fatal during GPU bring-up.,,
+WO-0000853,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000854,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000855,AER fatal during GPU bring-up.,,
+WO-0000856,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000858,DHCP scope exhausted; PXE failed.,,
+WO-0000861,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000863,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000866,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000868,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000871,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000872,UEFI signature verification failure.,,
+WO-0000873,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000876,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000882,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000886,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000892,DHCP scope exhausted; PXE failed.,,
+WO-0000894,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000895,Network mgmt failure; redfish API stalled.,,
+WO-0000896,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000897,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000899,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0000904,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000905,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000909,Firmware version mismatch against catalog policy.,,
+WO-0000910,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0000912,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000914,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0000915,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000918,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000922,AER fatal during GPU bring-up.,,
+WO-0000923,SAS backplane link instability.,,
+WO-0000926,Enumeration timeout on front panel port.,,
+WO-0000927,AER fatal during GPU bring-up.,,
+WO-0000930,Network lease starvation during imaging.,,
+WO-0000933,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0000934,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000935,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000938,USB device failed to enumerate; hub reset.,,
+WO-0000940,DIMM marginal; errors above threshold.,,
+WO-0000945,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000947,Secure Boot blocked unsigned image.,,
+WO-0000949,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0000950,UEFI signature verification failure.,,
+WO-0000953,Mgmt interface unresponsive; redfish timeout.,,
+WO-0000955,PCIe training error on GPU; retrain.,,
+WO-0000967,DIMM marginal; errors above threshold.,,
+WO-0000969,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0000974,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000978,"Storage bay loose, reseated successfully.",,
+WO-0000979,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0000980,Intermittent memory failure under test.,,
+WO-0000982,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0000984,DHCP scope exhausted; PXE failed.,,
+WO-0000985,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0000987,Drive not fully seated in bay.,,
+WO-0000988,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0000989,DIMM marginal; errors above threshold.,,
+WO-0000992,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0000995,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0000999,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001002,Secure Boot blocked unsigned image.,,
+WO-0001008,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001010,USB device failed to enumerate; hub reset.,,
+WO-0001015,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001016,Enumeration timeout on front panel port.,,
+WO-0001021,Secure Boot blocked unsigned image.,,
+WO-0001024,HBA/expander link drop observed.,,
+WO-0001027,Enumeration timeout on front panel port.,,
+WO-0001032,Enumeration timeout on front panel port.,,
+WO-0001034,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001037,Enumeration timeout on front panel port.,,
+WO-0001038,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001039,"Storage bay loose, reseated successfully.",,
+WO-0001040,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001044,Intermittent memory failure under test.,,
+WO-0001048,AER fatal during GPU bring-up.,,
+WO-0001050,USB device failed to enumerate; hub reset.,,
+WO-0001052,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001061,TPM attestation failed; PCR mismatch.,,
+WO-0001062,PCIe training error on GPU; retrain.,,
+WO-0001064,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001066,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001067,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001068,Network lease starvation during imaging.,,
+WO-0001069,USB device failed to enumerate; hub reset.,,
+WO-0001071,Flash blocked due to version skew.,,
+WO-0001075,Drive not fully seated in bay.,,
+WO-0001080,DIMM marginal; errors above threshold.,,
+WO-0001082,Missing enumeration on storage tray.,,
+WO-0001084,Secure Boot blocked unsigned image.,,
+WO-0001089,UEFI signature verification failure.,,
+WO-0001094,HBA/expander link drop observed.,,
+WO-0001097,SAS backplane link instability.,,
+WO-0001098,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001099,DHCP scope exhausted; PXE failed.,,
+WO-0001100,AER fatal during GPU bring-up.,,
+WO-0001101,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001105,SAS backplane link instability.,,
+WO-0001106,Firmware version mismatch against catalog policy.,,
+WO-0001108,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001110,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001112,UEFI signature verification failure.,,
+WO-0001113,AER fatal during GPU bring-up.,,
+WO-0001120,HBA/expander link drop observed.,,
+WO-0001122,Enumeration timeout on front panel port.,,
+WO-0001126,Network mgmt failure; redfish API stalled.,,
+WO-0001128,DIMM marginal; errors above threshold.,,
+WO-0001131,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001132,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001133,PCIe training error on GPU; retrain.,,
+WO-0001136,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001137,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001138,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001141,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001142,Firmware version mismatch against catalog policy.,,
+WO-0001143,TPM attestation failed; PCR mismatch.,,
+WO-0001144,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0001146,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001147,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001148,EK chain trust issue during attestation.,,
+WO-0001150,Firmware version mismatch against catalog policy.,,
+WO-0001153,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001154,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001155,"Storage bay loose, reseated successfully.",,
+WO-0001156,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001158,DIMM marginal; errors above threshold.,,
+WO-0001160,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001162,Network mgmt failure; redfish API stalled.,,
+WO-0001163,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001164,Enumeration timeout on front panel port.,,
+WO-0001169,DIMM marginal; errors above threshold.,,
+WO-0001170,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001181,DIMM marginal; errors above threshold.,,
+WO-0001184,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001185,SAS backplane link instability.,,
+WO-0001189,"Storage bay loose, reseated successfully.",,
+WO-0001191,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001193,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001197,TPM attestation failed; PCR mismatch.,,
+WO-0001198,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001199,TPM attestation failed; PCR mismatch.,,
+WO-0001200,Secure Boot blocked unsigned image.,,
+WO-0001206,USB device failed to enumerate; hub reset.,,
+WO-0001207,DIMM marginal; errors above threshold.,,
+WO-0001211,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001213,Missing enumeration on storage tray.,,
+WO-0001215,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001223,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001224,Missing enumeration on storage tray.,,
+WO-0001227,UEFI signature verification failure.,,
+WO-0001229,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001232,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001233,EK chain trust issue during attestation.,,
+WO-0001234,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001235,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001238,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001243,Missing enumeration on storage tray.,,
+WO-0001245,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001246,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001248,Secure Boot blocked unsigned image.,,
+WO-0001249,HBA/expander link drop observed.,,
+WO-0001253,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0001259,UEFI signature verification failure.,,
+WO-0001260,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001263,Mgmt interface unresponsive; redfish timeout.,,
+WO-0001265,Secure Boot blocked unsigned image.,,
+WO-0001270,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001271,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001272,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001275,PCIe training error on GPU; retrain.,,
+WO-0001276,DHCP scope exhausted; PXE failed.,,
+WO-0001279,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001281,"Storage bay loose, reseated successfully.",,
+WO-0001284,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0001286,Network lease starvation during imaging.,,
+WO-0001293,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001296,USB device failed to enumerate; hub reset.,,
+WO-0001297,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001299,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001301,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001302,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001303,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001310,Firmware version mismatch against catalog policy.,,
+WO-0001316,DIMM marginal; errors above threshold.,,
+WO-0001319,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001321,Intermittent memory failure under test.,,
+WO-0001322,UEFI signature verification failure.,,
+WO-0001324,Mgmt interface unresponsive; redfish timeout.,,
+WO-0001328,Flash blocked due to version skew.,,
+WO-0001330,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001335,USB device failed to enumerate; hub reset.,,
+WO-0001336,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001347,DIMM marginal; errors above threshold.,,
+WO-0001348,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001349,Firmware version mismatch against catalog policy.,,
+WO-0001352,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001364,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001367,"Storage bay loose, reseated successfully.",,
+WO-0001368,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001369,TPM attestation failed; PCR mismatch.,,
+WO-0001376,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001378,SAS backplane link instability.,,
+WO-0001384,Missing enumeration on storage tray.,,
+WO-0001385,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001386,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001387,USB device failed to enumerate; hub reset.,,
+WO-0001391,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001393,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001395,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001397,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001398,Firmware version mismatch against catalog policy.,,
+WO-0001411,USB device failed to enumerate; hub reset.,,
+WO-0001412,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001421,"Storage bay loose, reseated successfully.",,
+WO-0001426,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001429,Missing enumeration on storage tray.,,
+WO-0001431,PCIe training error on GPU; retrain.,,
+WO-0001432,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001436,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001438,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001440,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001442,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001444,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001445,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001448,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001449,Enumeration timeout on front panel port.,,
+WO-0001452,DIMM marginal; errors above threshold.,,
+WO-0001458,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001466,Firmware version mismatch against catalog policy.,,
+WO-0001468,Enumeration timeout on front panel port.,,
+WO-0001469,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0001470,Intermittent memory failure under test.,,
+WO-0001471,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001477,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001478,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0001483,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001484,AER fatal during GPU bring-up.,,
+WO-0001485,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001489,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001491,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001493,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001495,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001496,PCIe training error on GPU; retrain.,,
+WO-0001497,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0001503,Drive not fully seated in bay.,,
+WO-0001504,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001505,Secure Boot blocked unsigned image.,,
+WO-0001511,Intermittent memory failure under test.,,
+WO-0001515,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001519,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001522,Intermittent memory failure under test.,,
+WO-0001525,TPM attestation failed; PCR mismatch.,,
+WO-0001528,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001531,Enumeration timeout on front panel port.,,
+WO-0001534,Flash blocked due to version skew.,,
+WO-0001535,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001546,Mgmt interface unresponsive; redfish timeout.,,
+WO-0001549,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0001551,DIMM marginal; errors above threshold.,,
+WO-0001556,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0001557,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001560,Secure Boot blocked unsigned image.,,
+WO-0001563,USB device failed to enumerate; hub reset.,,
+WO-0001564,SAS backplane link instability.,,
+WO-0001566,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001567,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001572,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001574,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001575,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001576,Intermittent memory failure under test.,,
+WO-0001579,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001581,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001584,TPM attestation failed; PCR mismatch.,,
+WO-0001588,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001590,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001591,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001592,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001593,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001602,Network lease starvation during imaging.,,
+WO-0001603,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001607,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0001610,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001611,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001614,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001618,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0001619,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001620,SAS backplane link instability.,,
+WO-0001623,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001631,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0001633,Network lease starvation during imaging.,,
+WO-0001635,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001636,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0001637,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001642,Network lease starvation during imaging.,,
+WO-0001643,HBA/expander link drop observed.,,
+WO-0001649,Missing enumeration on storage tray.,,
+WO-0001651,TPM attestation failed; PCR mismatch.,,
+WO-0001657,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001662,USB device failed to enumerate; hub reset.,,
+WO-0001670,PCIe training error on GPU; retrain.,,
+WO-0001675,DHCP scope exhausted; PXE failed.,,
+WO-0001676,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0001688,TPM attestation failed; PCR mismatch.,,
+WO-0001695,DHCP scope exhausted; PXE failed.,,
+WO-0001697,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001704,DHCP scope exhausted; PXE failed.,,
+WO-0001706,"Storage bay loose, reseated successfully.",,
+WO-0001708,EK chain trust issue during attestation.,,
+WO-0001709,SAS backplane link instability.,,
+WO-0001713,UEFI signature verification failure.,,
+WO-0001714,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001717,Drive not fully seated in bay.,,
+WO-0001719,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001720,Mgmt interface unresponsive; redfish timeout.,,
+WO-0001723,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001725,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001728,Secure Boot blocked unsigned image.,,
+WO-0001730,DIMM marginal; errors above threshold.,,
+WO-0001733,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001735,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001737,SAS backplane link instability.,,
+WO-0001745,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001749,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001750,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0001751,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001752,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0001754,Network lease starvation during imaging.,,
+WO-0001756,AER fatal during GPU bring-up.,,
+WO-0001757,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001759,TPM attestation failed; PCR mismatch.,,
+WO-0001760,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0001761,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0001763,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001768,Firmware version mismatch against catalog policy.,,
+WO-0001769,SAS backplane link instability.,,
+WO-0001770,Intermittent memory failure under test.,,
+WO-0001773,Enumeration timeout on front panel port.,,
+WO-0001775,Mgmt interface unresponsive; redfish timeout.,,
+WO-0001776,EK chain trust issue during attestation.,,
+WO-0001780,USB device failed to enumerate; hub reset.,,
+WO-0001782,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001788,USB device failed to enumerate; hub reset.,,
+WO-0001790,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0001800,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001801,HBA/expander link drop observed.,,
+WO-0001804,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001808,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001812,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001814,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001817,Firmware version mismatch against catalog policy.,,
+WO-0001820,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001821,UEFI signature verification failure.,,
+WO-0001823,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001825,UEFI signature verification failure.,,
+WO-0001827,DHCP scope exhausted; PXE failed.,,
+WO-0001830,TPM attestation failed; PCR mismatch.,,
+WO-0001832,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001836,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001840,UEFI signature verification failure.,,
+WO-0001841,DIMM marginal; errors above threshold.,,
+WO-0001847,DHCP scope exhausted; PXE failed.,,
+WO-0001851,Network lease starvation during imaging.,,
+WO-0001854,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001858,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001866,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001868,Missing enumeration on storage tray.,,
+WO-0001870,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001871,Firmware version mismatch against catalog policy.,,
+WO-0001873,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0001874,Firmware version mismatch against catalog policy.,,
+WO-0001876,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0001877,UEFI signature verification failure.,,
+WO-0001878,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0001880,TPM attestation failed; PCR mismatch.,,
+WO-0001883,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001884,DHCP scope exhausted; PXE failed.,,
+WO-0001886,USB device failed to enumerate; hub reset.,,
+WO-0001888,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001889,EK chain trust issue during attestation.,,
+WO-0001891,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001893,SAS backplane link instability.,,
+WO-0001899,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001901,SAS backplane link instability.,,
+WO-0001904,UEFI signature verification failure.,,
+WO-0001906,UEFI signature verification failure.,,
+WO-0001909,Enumeration timeout on front panel port.,,
+WO-0001913,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001918,Network lease starvation during imaging.,,
+WO-0001924,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001926,USB device failed to enumerate; hub reset.,,
+WO-0001927,"Storage bay loose, reseated successfully.",,
+WO-0001929,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001930,EK chain trust issue during attestation.,,
+WO-0001932,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001938,Firmware version mismatch against catalog policy.,,
+WO-0001939,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001945,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0001946,PCIe training error on GPU; retrain.,,
+WO-0001948,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0001949,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0001954,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0001957,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0001958,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001964,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0001966,SAS backplane link instability.,,
+WO-0001967,"Storage bay loose, reseated successfully.",,
+WO-0001968,Flash blocked due to version skew.,,
+WO-0001969,Drive not fully seated in bay.,,
+WO-0001971,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001973,AER fatal during GPU bring-up.,,
+WO-0001974,Intermittent memory failure under test.,,
+WO-0001978,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001979,"Storage bay loose, reseated successfully.",,
+WO-0001980,Flash blocked due to version skew.,,
+WO-0001983,Secure Boot blocked unsigned image.,,
+WO-0001984,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0001988,SAS backplane link instability.,,
+WO-0001990,HBA/expander link drop observed.,,
+WO-0001993,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0001994,DIMM marginal; errors above threshold.,,
+WO-0001995,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0001996,EK chain trust issue during attestation.,,
+WO-0002000,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002001,Intermittent memory failure under test.,,
+WO-0002006,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002007,"Storage bay loose, reseated successfully.",,
+WO-0002008,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002010,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002012,DHCP scope exhausted; PXE failed.,,
+WO-0002020,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002021,Enumeration timeout on front panel port.,,
+WO-0002026,EK chain trust issue during attestation.,,
+WO-0002027,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002029,Intermittent memory failure under test.,,
+WO-0002031,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002032,TPM attestation failed; PCR mismatch.,,
+WO-0002034,SAS backplane link instability.,,
+WO-0002036,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002037,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002039,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002041,EK chain trust issue during attestation.,,
+WO-0002042,"Storage bay loose, reseated successfully.",,
+WO-0002047,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002048,Intermittent memory failure under test.,,
+WO-0002049,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002050,PCIe training error on GPU; retrain.,,
+WO-0002051,Mgmt interface unresponsive; redfish timeout.,,
+WO-0002055,Drive not fully seated in bay.,,
+WO-0002056,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002067,Network mgmt failure; redfish API stalled.,,
+WO-0002068,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002070,USB device failed to enumerate; hub reset.,,
+WO-0002071,AER fatal during GPU bring-up.,,
+WO-0002072,Drive not fully seated in bay.,,
+WO-0002077,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002078,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002080,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002081,Drive not fully seated in bay.,,
+WO-0002084,"Storage bay loose, reseated successfully.",,
+WO-0002087,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002094,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002097,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002099,DHCP scope exhausted; PXE failed.,,
+WO-0002107,SAS backplane link instability.,,
+WO-0002108,Missing enumeration on storage tray.,,
+WO-0002113,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002119,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002120,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002121,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002123,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002125,DIMM marginal; errors above threshold.,,
+WO-0002129,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002131,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002132,Mgmt interface unresponsive; redfish timeout.,,
+WO-0002135,Secure Boot blocked unsigned image.,,
+WO-0002136,Flash blocked due to version skew.,,
+WO-0002139,USB device failed to enumerate; hub reset.,,
+WO-0002142,Intermittent memory failure under test.,,
+WO-0002146,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002148,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002154,HBA/expander link drop observed.,,
+WO-0002161,HBA/expander link drop observed.,,
+WO-0002164,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002166,AER fatal during GPU bring-up.,,
+WO-0002170,Flash blocked due to version skew.,,
+WO-0002171,SAS backplane link instability.,,
+WO-0002173,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002176,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002177,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002179,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002182,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002183,DIMM marginal; errors above threshold.,,
+WO-0002184,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002186,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002188,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002189,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002207,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002210,TPM attestation failed; PCR mismatch.,,
+WO-0002215,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002216,TPM attestation failed; PCR mismatch.,,
+WO-0002219,HBA/expander link drop observed.,,
+WO-0002220,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002221,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002224,Network mgmt failure; redfish API stalled.,,
+WO-0002229,Flash blocked due to version skew.,,
+WO-0002230,USB device failed to enumerate; hub reset.,,
+WO-0002234,Secure Boot blocked unsigned image.,,
+WO-0002235,Firmware version mismatch against catalog policy.,,
+WO-0002236,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002237,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002243,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002244,Network lease starvation during imaging.,,
+WO-0002248,Drive not fully seated in bay.,,
+WO-0002249,Intermittent memory failure under test.,,
+WO-0002251,TPM attestation failed; PCR mismatch.,,
+WO-0002253,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002255,DIMM marginal; errors above threshold.,,
+WO-0002258,Network mgmt failure; redfish API stalled.,,
+WO-0002259,Mgmt interface unresponsive; redfish timeout.,,
+WO-0002261,SAS backplane link instability.,,
+WO-0002265,Flash blocked due to version skew.,,
+WO-0002267,Firmware version mismatch against catalog policy.,,
+WO-0002268,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002269,Network lease starvation during imaging.,,
+WO-0002279,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002280,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002281,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002286,AER fatal during GPU bring-up.,,
+WO-0002287,SAS backplane link instability.,,
+WO-0002288,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002290,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002292,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002293,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002294,TPM attestation failed; PCR mismatch.,,
+WO-0002296,TPM attestation failed; PCR mismatch.,,
+WO-0002298,USB device failed to enumerate; hub reset.,,
+WO-0002299,Firmware version mismatch against catalog policy.,,
+WO-0002301,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002302,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002305,DIMM marginal; errors above threshold.,,
+WO-0002306,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002308,Missing enumeration on storage tray.,,
+WO-0002309,Secure Boot blocked unsigned image.,,
+WO-0002313,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002322,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002323,SAS backplane link instability.,,
+WO-0002325,Drive not fully seated in bay.,,
+WO-0002326,Network mgmt failure; redfish API stalled.,,
+WO-0002328,UEFI signature verification failure.,,
+WO-0002330,USB device failed to enumerate; hub reset.,,
+WO-0002335,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002338,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002343,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002344,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002346,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002347,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002350,UEFI signature verification failure.,,
+WO-0002355,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002357,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002358,Drive not fully seated in bay.,,
+WO-0002360,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002361,DHCP scope exhausted; PXE failed.,,
+WO-0002363,TPM attestation failed; PCR mismatch.,,
+WO-0002366,Intermittent memory failure under test.,,
+WO-0002367,"Storage bay loose, reseated successfully.",,
+WO-0002370,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002381,Network lease starvation during imaging.,,
+WO-0002383,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002385,Firmware version mismatch against catalog policy.,,
+WO-0002387,USB device failed to enumerate; hub reset.,,
+WO-0002393,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002400,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0002401,Intermittent memory failure under test.,,
+WO-0002402,EK chain trust issue during attestation.,,
+WO-0002406,TPM attestation failed; PCR mismatch.,,
+WO-0002407,HBA/expander link drop observed.,,
+WO-0002408,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002414,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002415,PCIe training error on GPU; retrain.,,
+WO-0002417,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002420,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002423,Secure Boot blocked unsigned image.,,
+WO-0002431,Missing enumeration on storage tray.,,
+WO-0002433,DHCP scope exhausted; PXE failed.,,
+WO-0002438,Missing enumeration on storage tray.,,
+WO-0002445,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002446,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002449,Network lease starvation during imaging.,,
+WO-0002450,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002452,DHCP scope exhausted; PXE failed.,,
+WO-0002453,HBA/expander link drop observed.,,
+WO-0002454,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002458,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002459,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002460,TPM attestation failed; PCR mismatch.,,
+WO-0002463,UEFI signature verification failure.,,
+WO-0002465,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002466,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002468,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002471,DHCP scope exhausted; PXE failed.,,
+WO-0002475,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002476,Missing enumeration on storage tray.,,
+WO-0002477,USB device failed to enumerate; hub reset.,,
+WO-0002478,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002479,Enumeration timeout on front panel port.,,
+WO-0002480,Flash blocked due to version skew.,,
+WO-0002484,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002491,Intermittent memory failure under test.,,
+WO-0002492,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002495,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002501,AER fatal during GPU bring-up.,,
+WO-0002503,Network mgmt failure; redfish API stalled.,,
+WO-0002508,Drive not fully seated in bay.,,
+WO-0002517,Enumeration timeout on front panel port.,,
+WO-0002521,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002522,HBA/expander link drop observed.,,
+WO-0002523,PCIe training error on GPU; retrain.,,
+WO-0002527,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002535,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002538,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0002541,Network lease starvation during imaging.,,
+WO-0002542,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002543,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002545,Missing enumeration on storage tray.,,
+WO-0002547,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002553,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002558,Network lease starvation during imaging.,,
+WO-0002561,Network lease starvation during imaging.,,
+WO-0002564,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002566,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002567,UEFI signature verification failure.,,
+WO-0002569,HBA/expander link drop observed.,,
+WO-0002571,Network lease starvation during imaging.,,
+WO-0002572,Firmware version mismatch against catalog policy.,,
+WO-0002573,AER fatal during GPU bring-up.,,
+WO-0002577,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002579,SAS backplane link instability.,,
+WO-0002581,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002582,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002590,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002591,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002594,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002595,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0002598,Missing enumeration on storage tray.,,
+WO-0002601,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002603,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002608,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002610,TPM attestation failed; PCR mismatch.,,
+WO-0002613,EK chain trust issue during attestation.,,
+WO-0002619,"Storage bay loose, reseated successfully.",,
+WO-0002621,TPM attestation failed; PCR mismatch.,,
+WO-0002626,Secure Boot blocked unsigned image.,,
+WO-0002632,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002636,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002639,UEFI signature verification failure.,,
+WO-0002642,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002643,Secure Boot blocked unsigned image.,,
+WO-0002644,HBA/expander link drop observed.,,
+WO-0002646,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002647,"Storage bay loose, reseated successfully.",,
+WO-0002651,Secure Boot blocked unsigned image.,,
+WO-0002653,PCIe training error on GPU; retrain.,,
+WO-0002655,Intermittent memory failure under test.,,
+WO-0002659,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002670,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002676,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002677,HBA/expander link drop observed.,,
+WO-0002681,Enumeration timeout on front panel port.,,
+WO-0002685,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0002691,Flash blocked due to version skew.,,
+WO-0002692,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002694,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002695,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002699,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002700,AER fatal during GPU bring-up.,,
+WO-0002702,UEFI signature verification failure.,,
+WO-0002707,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002710,DIMM marginal; errors above threshold.,,
+WO-0002713,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0002714,Intermittent memory failure under test.,,
+WO-0002716,"Storage bay loose, reseated successfully.",,
+WO-0002717,UEFI signature verification failure.,,
+WO-0002721,Network mgmt failure; redfish API stalled.,,
+WO-0002723,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002724,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002725,Mgmt interface unresponsive; redfish timeout.,,
+WO-0002727,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002735,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002737,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002738,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002740,EK chain trust issue during attestation.,,
+WO-0002741,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002742,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002745,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002746,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0002747,USB device failed to enumerate; hub reset.,,
+WO-0002749,DIMM marginal; errors above threshold.,,
+WO-0002753,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002754,PCIe training error on GPU; retrain.,,
+WO-0002759,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002761,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0002769,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002770,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002772,"Storage bay loose, reseated successfully.",,
+WO-0002782,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002785,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0002787,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002797,DIMM marginal; errors above threshold.,,
+WO-0002802,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0002804,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0002807,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0002808,Network mgmt failure; redfish API stalled.,,
+WO-0002810,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002812,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002813,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002815,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002816,USB device failed to enumerate; hub reset.,,
+WO-0002817,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002818,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002819,PCIe training error on GPU; retrain.,,
+WO-0002820,UEFI signature verification failure.,,
+WO-0002822,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002826,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002831,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002833,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002834,Firmware version mismatch against catalog policy.,,
+WO-0002839,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002844,SAS backplane link instability.,,
+WO-0002846,DHCP scope exhausted; PXE failed.,,
+WO-0002849,SAS backplane link instability.,,
+WO-0002853,Secure Boot blocked unsigned image.,,
+WO-0002855,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0002857,Enumeration timeout on front panel port.,,
+WO-0002862,Flash blocked due to version skew.,,
+WO-0002863,EK chain trust issue during attestation.,,
+WO-0002875,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002877,Flash blocked due to version skew.,,
+WO-0002878,Drive not fully seated in bay.,,
+WO-0002880,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002881,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002885,TPM attestation failed; PCR mismatch.,,
+WO-0002887,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0002888,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0002893,Missing enumeration on storage tray.,,
+WO-0002897,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002898,PCIe training error on GPU; retrain.,,
+WO-0002901,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002902,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002903,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002904,Network lease starvation during imaging.,,
+WO-0002905,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002909,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002910,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002911,DHCP scope exhausted; PXE failed.,,
+WO-0002913,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002916,UEFI signature verification failure.,,
+WO-0002917,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002924,TPM attestation failed; PCR mismatch.,,
+WO-0002926,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002931,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002934,Network lease starvation during imaging.,,
+WO-0002935,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0002946,Drive not fully seated in bay.,,
+WO-0002947,TPM attestation failed; PCR mismatch.,,
+WO-0002948,EK chain trust issue during attestation.,,
+WO-0002950,TPM attestation failed; PCR mismatch.,,
+WO-0002951,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002955,USB device failed to enumerate; hub reset.,,
+WO-0002957,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0002961,DHCP scope exhausted; PXE failed.,,
+WO-0002963,Enumeration timeout on front panel port.,,
+WO-0002964,Drive not fully seated in bay.,,
+WO-0002971,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002974,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0002975,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0002976,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0002977,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002980,DIMM marginal; errors above threshold.,,
+WO-0002981,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0002983,PCIe training error on GPU; retrain.,,
+WO-0002985,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0002986,USB device failed to enumerate; hub reset.,,
+WO-0002988,Intermittent memory failure under test.,,
+WO-0002989,Secure Boot blocked unsigned image.,,
+WO-0002992,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0002993,Network mgmt failure; redfish API stalled.,,
+WO-0002994,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0002996,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003000,HBA/expander link drop observed.,,
+WO-0003001,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003004,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003005,Flash blocked due to version skew.,,
+WO-0003010,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003015,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0003021,HBA/expander link drop observed.,,
+WO-0003024,PCIe training error on GPU; retrain.,,
+WO-0003025,Firmware version mismatch against catalog policy.,,
+WO-0003030,Secure Boot blocked unsigned image.,,
+WO-0003034,DHCP scope exhausted; PXE failed.,,
+WO-0003035,PCIe training error on GPU; retrain.,,
+WO-0003036,Firmware version mismatch against catalog policy.,,
+WO-0003039,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003041,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003046,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003047,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003050,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003052,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003054,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003057,Enumeration timeout on front panel port.,,
+WO-0003058,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0003060,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003063,HBA/expander link drop observed.,,
+WO-0003065,UEFI signature verification failure.,,
+WO-0003070,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003075,EK chain trust issue during attestation.,,
+WO-0003076,Intermittent memory failure under test.,,
+WO-0003080,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003086,USB device failed to enumerate; hub reset.,,
+WO-0003089,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003090,AER fatal during GPU bring-up.,,
+WO-0003094,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003099,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003102,UEFI signature verification failure.,,
+WO-0003103,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0003105,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003107,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003108,HBA/expander link drop observed.,,
+WO-0003111,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003113,Secure Boot blocked unsigned image.,,
+WO-0003117,Secure Boot blocked unsigned image.,,
+WO-0003118,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003119,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003123,Network mgmt failure; redfish API stalled.,,
+WO-0003124,Intermittent memory failure under test.,,
+WO-0003129,DHCP scope exhausted; PXE failed.,,
+WO-0003133,Intermittent memory failure under test.,,
+WO-0003134,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003138,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003141,Missing enumeration on storage tray.,,
+WO-0003144,TPM attestation failed; PCR mismatch.,,
+WO-0003145,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003150,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003158,Network mgmt failure; redfish API stalled.,,
+WO-0003159,Missing enumeration on storage tray.,,
+WO-0003160,SAS backplane link instability.,,
+WO-0003162,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003164,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003169,"Storage bay loose, reseated successfully.",,
+WO-0003172,SAS backplane link instability.,,
+WO-0003175,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003176,SAS backplane link instability.,,
+WO-0003177,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0003178,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003179,USB device failed to enumerate; hub reset.,,
+WO-0003186,EK chain trust issue during attestation.,,
+WO-0003189,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003190,SAS backplane link instability.,,
+WO-0003191,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003192,Firmware version mismatch against catalog policy.,,
+WO-0003196,Secure Boot blocked unsigned image.,,
+WO-0003197,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003203,AER fatal during GPU bring-up.,,
+WO-0003206,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003210,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003211,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003212,DIMM marginal; errors above threshold.,,
+WO-0003213,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003214,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003215,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003219,UEFI signature verification failure.,,
+WO-0003233,Drive not fully seated in bay.,,
+WO-0003245,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0003247,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003251,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003252,Intermittent memory failure under test.,,
+WO-0003253,Firmware version mismatch against catalog policy.,,
+WO-0003257,Mgmt interface unresponsive; redfish timeout.,,
+WO-0003262,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0003266,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003272,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003275,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003277,HBA/expander link drop observed.,,
+WO-0003278,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003281,Missing enumeration on storage tray.,,
+WO-0003282,Intermittent memory failure under test.,,
+WO-0003285,Missing enumeration on storage tray.,,
+WO-0003286,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003288,Enumeration timeout on front panel port.,,
+WO-0003292,TPM attestation failed; PCR mismatch.,,
+WO-0003293,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003294,Secure Boot blocked unsigned image.,,
+WO-0003298,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003301,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003310,SAS backplane link instability.,,
+WO-0003312,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003318,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003320,UEFI signature verification failure.,,
+WO-0003322,"Storage bay loose, reseated successfully.",,
+WO-0003323,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003324,Missing enumeration on storage tray.,,
+WO-0003326,Mgmt interface unresponsive; redfish timeout.,,
+WO-0003328,Flash blocked due to version skew.,,
+WO-0003330,Network mgmt failure; redfish API stalled.,,
+WO-0003333,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003335,SAS backplane link instability.,,
+WO-0003336,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003337,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003340,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003343,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003345,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003347,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003350,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003351,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003353,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003354,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003356,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0003361,UEFI signature verification failure.,,
+WO-0003362,Firmware version mismatch against catalog policy.,,
+WO-0003363,USB device failed to enumerate; hub reset.,,
+WO-0003365,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003368,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003371,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0003378,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003381,Flash blocked due to version skew.,,
+WO-0003383,HBA/expander link drop observed.,,
+WO-0003389,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0003392,DIMM marginal; errors above threshold.,,
+WO-0003393,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003396,Network mgmt failure; redfish API stalled.,,
+WO-0003403,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003404,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003405,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003409,SAS backplane link instability.,,
+WO-0003418,Secure Boot blocked unsigned image.,,
+WO-0003421,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003422,SAS backplane link instability.,,
+WO-0003424,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003425,Network lease starvation during imaging.,,
+WO-0003430,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003432,Drive not fully seated in bay.,,
+WO-0003435,PCIe training error on GPU; retrain.,,
+WO-0003437,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003440,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003442,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003447,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003450,Drive not fully seated in bay.,,
+WO-0003452,Missing enumeration on storage tray.,,
+WO-0003454,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003458,Network mgmt failure; redfish API stalled.,,
+WO-0003459,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003463,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003466,PCIe training error on GPU; retrain.,,
+WO-0003470,Enumeration timeout on front panel port.,,
+WO-0003471,Intermittent memory failure under test.,,
+WO-0003482,DIMM marginal; errors above threshold.,,
+WO-0003489,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003491,Network lease starvation during imaging.,,
+WO-0003492,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003494,USB device failed to enumerate; hub reset.,,
+WO-0003497,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003502,PCIe training error on GPU; retrain.,,
+WO-0003503,Network lease starvation during imaging.,,
+WO-0003510,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003511,Network lease starvation during imaging.,,
+WO-0003512,"Storage bay loose, reseated successfully.",,
+WO-0003525,PCIe training error on GPU; retrain.,,
+WO-0003530,Firmware version mismatch against catalog policy.,,
+WO-0003531,HBA/expander link drop observed.,,
+WO-0003536,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003538,Intermittent memory failure under test.,,
+WO-0003546,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0003547,DIMM marginal; errors above threshold.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003548,DHCP scope exhausted; PXE failed.,,
+WO-0003552,TPM attestation failed; PCR mismatch.,,
+WO-0003553,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003554,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0003555,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003556,Network lease starvation during imaging.,,
+WO-0003557,Firmware version mismatch against catalog policy.,,
+WO-0003558,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003559,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003566,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003568,Intermittent memory failure under test.,,
+WO-0003571,SAS backplane link instability.,,
+WO-0003572,Network lease starvation during imaging.,,
+WO-0003574,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0003575,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003576,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003577,AER fatal during GPU bring-up.,,
+WO-0003582,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003585,AER fatal during GPU bring-up.,,
+WO-0003586,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0003588,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003590,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003591,Secure Boot blocked unsigned image.,,
+WO-0003592,EK chain trust issue during attestation.,,
+WO-0003594,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003595,DHCP scope exhausted; PXE failed.,,
+WO-0003597,"Storage bay loose, reseated successfully.",,
+WO-0003600,Intermittent memory failure under test.,,
+WO-0003602,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003603,UEFI signature verification failure.,,
+WO-0003605,Intermittent memory failure under test.,,
+WO-0003611,Enumeration timeout on front panel port.,,
+WO-0003612,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003614,HBA/expander link drop observed.,,
+WO-0003615,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003617,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003622,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003623,Enumeration timeout on front panel port.,,
+WO-0003625,EK chain trust issue during attestation.,TPM,TPM_ATTESTATION_FAIL
+WO-0003634,Intermittent memory failure under test.,,
+WO-0003641,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003643,HBA/expander link drop observed.,,
+WO-0003647,Missing enumeration on storage tray.,,
+WO-0003657,Secure Boot blocked unsigned image.,,
+WO-0003661,SAS backplane link instability.,,
+WO-0003663,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003664,SAS backplane link instability.,,
+WO-0003667,Network mgmt failure; redfish API stalled.,,
+WO-0003672,HBA/expander link drop observed.,,
+WO-0003674,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003675,EK chain trust issue during attestation.,,
+WO-0003678,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003679,SAS backplane link instability.,,
+WO-0003681,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003683,Network lease starvation during imaging.,,
+WO-0003693,DHCP scope exhausted; PXE failed.,,
+WO-0003695,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003700,DHCP scope exhausted; PXE failed.,,
+WO-0003701,SAS backplane link instability.,,
+WO-0003704,Secure Boot blocked unsigned image.,,
+WO-0003705,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003706,Network mgmt failure; redfish API stalled.,,
+WO-0003708,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003709,Drive not fully seated in bay.,,
+WO-0003710,Enumeration timeout on front panel port.,,
+WO-0003714,Enumeration timeout on front panel port.,,
+WO-0003716,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003718,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003724,HBA/expander link drop observed.,,
+WO-0003726,Mgmt interface unresponsive; redfish timeout.,,
+WO-0003728,SAS backplane link instability.,,
+WO-0003733,EK chain trust issue during attestation.,,
+WO-0003736,Firmware version mismatch against catalog policy.,,
+WO-0003741,SAS backplane link instability.,,
+WO-0003742,"Storage bay loose, reseated successfully.",,
+WO-0003747,USB device failed to enumerate; hub reset.,,
+WO-0003748,Secure Boot blocked unsigned image.,,
+WO-0003749,TPM attestation failed; PCR mismatch.,,
+WO-0003751,Network mgmt failure; redfish API stalled.,,
+WO-0003752,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003755,Drive not fully seated in bay.,,
+WO-0003758,"Storage bay loose, reseated successfully.",DRIVE,DRIVE_NOT_SEATED
+WO-0003759,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003760,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003764,TPM attestation failed; PCR mismatch.,,
+WO-0003765,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003770,Flash blocked due to version skew.,,
+WO-0003771,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003772,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003779,TPM attestation failed; PCR mismatch.,,
+WO-0003782,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003783,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003784,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003792,Network lease starvation during imaging.,,
+WO-0003794,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003799,Missing enumeration on storage tray.,DRIVE,DRIVE_NOT_SEATED
+WO-0003803,EK chain trust issue during attestation.,,
+WO-0003805,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003806,"Storage bay loose, reseated successfully.",,
+WO-0003812,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003816,UEFI signature verification failure.,,
+WO-0003818,EK chain trust issue during attestation.,,
+WO-0003821,AER fatal during GPU bring-up.,,
+WO-0003824,Secure Boot blocked unsigned image.,,
+WO-0003826,Drive not fully seated in bay.,,
+WO-0003830,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003833,HBA/expander link drop observed.,,
+WO-0003844,SAS backplane link instability.,,
+WO-0003845,Intermittent memory failure under test.,MEMTEST,MEMTEST_INTERMITTENT
+WO-0003850,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003851,Drive not fully seated in bay.,,
+WO-0003853,USB device failed to enumerate; hub reset.,,
+WO-0003860,UEFI signature verification failure.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003865,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003866,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003870,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003872,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003873,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003877,AER fatal during GPU bring-up.,,
+WO-0003878,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003897,PCIe training error on GPU; retrain.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003898,Secure Boot blocked unsigned image.,,
+WO-0003901,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003906,PCIe training error on GPU; retrain.,,
+WO-0003907,Network mgmt failure; redfish API stalled.,,
+WO-0003909,DHCP scope exhausted; PXE failed.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003911,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003912,SAS backplane link instability.,,
+WO-0003913,Enumeration timeout on front panel port.,,
+WO-0003915,Enumeration timeout on front panel port.,,
+WO-0003918,TPM attestation failed; PCR mismatch.,TPM,TPM_ATTESTATION_FAIL
+WO-0003920,UEFI signature verification failure.,,
+WO-0003932,Flash blocked due to version skew.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003936,SAS backplane link instability.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003938,AER fatal during GPU bring-up.,,
+WO-0003940,TPM attestation failed; PCR mismatch.,,
+WO-0003941,Network lease starvation during imaging.,NIC,NIC_PXE_DHCP_EXHAUSTED
+WO-0003943,Secure Boot blocked unsigned image.,SECURE,SECURE_BOOT_POLICY_BLOCK
+WO-0003945,USB device failed to enumerate; hub reset.,USB,USB_ENUMERATION_STALL
+WO-0003950,Firmware version mismatch against catalog policy.,FIRMWARE,FIRMWARE_FLASH_MISMATCH
+WO-0003957,TPM attestation failed; PCR mismatch.,,
+WO-0003959,Network lease starvation during imaging.,,
+WO-0003960,Mgmt interface unresponsive; redfish timeout.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003961,Drive not fully seated in bay.,DRIVE,DRIVE_NOT_SEATED
+WO-0003964,Firmware version mismatch against catalog policy.,,
+WO-0003969,AER fatal during GPU bring-up.,GPU,GPU_PCIE_TRAINING_ERROR
+WO-0003976,Secure Boot blocked unsigned image.,,
+WO-0003977,SAS backplane link instability.,,
+WO-0003978,Missing enumeration on storage tray.,,
+WO-0003982,DIMM marginal; errors above threshold.,,
+WO-0003983,DIMM marginal; errors above threshold.,,
+WO-0003984,Enumeration timeout on front panel port.,USB,USB_ENUMERATION_STALL
+WO-0003989,DIMM marginal; errors above threshold.,,
+WO-0003990,Network mgmt failure; redfish API stalled.,BIOS,BIOS_REDFISH_TIMEOUT
+WO-0003993,BMC mgmt timed out over Redfish; suspect vendor firmware lag.,,
+WO-0003994,Network mgmt failure; redfish API stalled.,,
+WO-0003995,Missing enumeration on storage tray.,,
+WO-0003996,HBA/expander link drop observed.,SAS,SAS_BACKPLANE_LINK_DROP
+WO-0003997,Intermittent memory failure under test.,,
+WO-0003999,TPM attestation failed; PCR mismatch.,,
